@@ -1,5 +1,5 @@
 # AN ANALYSIS ON AVIATION ACCIDENTS(1919-2023)
-<img src="Images/Airplane_Crashing.jpeg" alt="Airplane_Crash" width="750">
+<img src="Images/Airplane_Crashing_Wide.jpg" alt="Airplane_Crash" width="750">
 
 
 ## Overview
