@@ -2,11 +2,11 @@
 <img src="Images/Airplane_Crashing_Wide.jpg" alt="Airplane_Crash" width="750">
 
 
-## Overview
+## **Overview**
 This project aims to effectively identify the risks associated with different aircraft by analysing historical aviation accident data. By identifying the patterns, trends, and risk factors that influence aircraft safety, it will facilitate the determination of the lowest risk venture aircraft for purchase by the company and the viable  operation of the aircrafts for commercial and private enterprises. The dataset covers approximately 24,000 aviation accidents worldwide that occurred between 1919 and 2023. Since the company is exploring entry into the aviation sector, it is crucial to understand the historical safety records of different aircraft types, operators, and regions in order to make well-informed decisions.
  
 
-## Business Understanding
+## **Business Understanding**
 The company's goal is not just to diversify its portfolio but also to efficiently identify the risk associated with each aircraft type in order to make well-informed investment decisions for their business endeavour. This lack of clarity on the potential risks involved with an aircraft venture calls for a need to have data-driven insights that would positively lead to optimized decision-making in the critical areas.
 
 To achieve this, the following business questions have been developed:
@@ -64,16 +64,36 @@ After the data cleaning process, the outcome was this [cleaned dataset](./Data/a
 
     Over the entire time period, the higher the accidents yearly, the higher the number of fatalities. However, the accidents and fatalities have both been decreasing proportionally over time to date. 
 
+* #### Accident Prone Models
 <img src='Images\Accident_Prone_Models.png' alt= 'Accident Prone Models'>
 
     Of the top 20 most accident prone models the Douglas model features several times. Specifically, the Douglas C-47A(DC-3) has the most accidents over the time span. It has more than double the second most accident-prone model   
 
+* ### Models with the highest Fatalities
+<img src='Images\Models_With_Highest_Fatalities.png'>
 
+    The Douglas is also the model with the highest fatalities.
 
-(the same visualizations presented in the slides and notebook)
+* ### Operators with the most accident cases
+<img src='Images\Operator_Risk.png'>
+
+    Most accidents that have occurred have been by military operator. These can be attributed to the wars that have occurred over the time period. Private operators have a 4.4% chance of causing accidents.
+
+* ### Countries recording the highest accidents
+<img src='Images\Highest_Accident_Countries.png'>
+
+    USA and Russia have the highest number of recorded accidents. The company has to consider that aircrafts operating there imposes greater risks than any other locations historically.
+
 ## **Conclusion**
 The decrease in the number of accidents over time has led to a decrease in the number of fatalities. This could be attributed to high technological advancement and improved safety standards in the aviation sector hence less accidents happenning. The company can thus consider it as a wise decision to venture into this industry since it is less prone to accidents hence higher chances of being profitable basing on possibility of accidents occurring.
 
-Since the company wants the least-risk aircraft, they should consider not going for a Douglas Model. This is because historically, this model has been the most accident prone aircrafts hence this doesn't not sit well with the company's goals. This does not mean the other models are safe, but based on historical data, the Douglas are a very risky investment.
+Since the company wants the least-risk aircraft, they should consider not going for a Douglas Model. This is because historically, this model has been the most accident prone aircrafts hence this doesn't not sit well with the company's goals. This does not mean the other models are safe, but based on historical data, the Douglas are a very risky investment. Worth noting is that the Douglas was initially a military plane but later used commercially after world war II. 
 
-Summary of conclusions including three relevant findings
+The Douglas also has the highest fatality rates but this is because it is a commercial plane hence it ferries many passengers. Thus, it is evident that commercial planes have higher fatalities and carry higher risk compared to private airliners.
+
+Also worth noting is that since the company will be a private operator of the aircraft, the chances of accidents happenning are low hence it is a viable business venture. 
+
+Geographically, it would not be feasible to generalise that certain regions like the USA and Russia have higher risk than other countries. While this being true, other factors like that the war occurred in these two countries skews the results. The company should consider the operating location geographically on this metric but they should consider other factors such as profitability before choosing a low-risk aircraft based on this factor.
+
+
+
